@@ -1,5 +1,9 @@
 let now = timestamp();
-let last = dt = accumulation = fps = 0;
+let last = 0;
+let dt = 0;
+let accumulation = 0;
+let fps = 0;
+
 const step = 1/60;
 
 function frame() {
